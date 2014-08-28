@@ -6,7 +6,6 @@ class FfmpegSixel < Formula
 
   depends_on "pkg-config" => :build
 
-  # manpages won"t be built without texi2html
   depends_on "yasm" => :build
 
   depends_on "libquvi"
