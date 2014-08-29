@@ -11,6 +11,7 @@ class Yaftx < Formula
   patch :DATA
 
   def install
+    ENV['LANG'] = 'en_US.UTF-8'
     system "make", "yaftx"
     bin.install 'yaftx'
   end
@@ -30,12 +31,3 @@ __END__
 
  HDR = color.h conf.h dcs.h draw.h function.h osc.h parse.h terminal.h util.h yaft.h glyph.h \
         fb/linux.h fb/freebsd.h fb/netbsd.h fb/openbsd.h x/x.h
-@@ -14,6 +14,8 @@ DESTDIR   =
- PREFIX    = $(DESTDIR)/usr
- MANPREFIX = $(DESTDIR)/usr/share/man
-
-+export LANG=ja_JP.UTF-8
-+
- all: yaft
-
- yaft: mkfont_bdf
