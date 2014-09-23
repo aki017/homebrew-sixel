@@ -7,6 +7,8 @@ class W3mSixel < Formula
   depends_on 'bdw-gc'
   depends_on 'libsixel' => ['with-gdk-pixbuf']
 
+  conflicts_with "w3m", :because => "w3m and w3m-sixel install the same binaries."
+
   def install
     system "./configure", "--prefix=#{prefix}", "--enable-image", "--with-imagelib="
     system "make install"
