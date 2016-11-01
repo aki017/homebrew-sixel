@@ -3,7 +3,7 @@ require "formula"
 class Yaftx < Formula
   homepage "http://uobikiemukot.github.io/yaft/"
   url "http://uobikiemukot.github.io/yaft/release/yaft-0.2.8.tar.gz"
-  sha1 "dce437ed4e4fde3ebf484da9eeb209cc12ffb1ea"
+  sha256 "5dfdf0c12d64638527eef4df9b17151c7c60bcc006ab976583de71a792083556"
   head "https://github.com/uobikiemukot/yaft.git"
 
   depends_on :x11

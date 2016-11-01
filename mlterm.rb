@@ -4,7 +4,7 @@ class Mlterm < Formula
   homepage "http://mlterm.sourceforge.net/"
   url "https://downloads.sourceforge.net/project/mlterm/01release/mlterm-3.3.8/mlterm-3.3.8.tar.gz"
   head "https://bitbucket.org/arakiken/mlterm", :using => :hg
-  sha1 "2552cb12fe74629b2eb4ae364f6c8751faa34118"
+  sha256 "314489685993aa4fe1fc08950226e93936df6773e2cadaf889b1f76f7d7f1721"
 
   depends_on :x11
   depends_on 'gdk-pixbuf'
