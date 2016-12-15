@@ -1,0 +1,2 @@
+# homebrew-sixel
+Unmaintained
